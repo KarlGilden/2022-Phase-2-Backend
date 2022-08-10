@@ -17,14 +17,10 @@ builder.Services.AddDbContext<PokemonContext>(options =>
 builder.Services.AddScoped<IPokeRepo, PokeRepo>();
 
 builder.Services.AddHttpClient();
-builder.Services.AddHttpClient("reddit", configureClient: client =>
-{
-    client.BaseAddress = new Uri("https://www.reddit.com/dev/api");
-});
 
-builder.Services.AddHttpClient("pokemon", configureClient: client =>
+builder.Services.AddHttpClient(builder.Configuration["PokemonClientName"], configureClient: client =>
 {
-    client.BaseAddress = new Uri("https://pokeapi.co/api/v2/");
+    client.BaseAddress = new Uri(builder.Configuration["PokemonAddress"]);
 });
 
 var app = builder.Build();

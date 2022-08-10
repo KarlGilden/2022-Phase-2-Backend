@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2022-Phase-2-Backend", "2022-Phase-2-Backend\2022-Phase-2-Backend.csproj", "{04D5125C-7E5E-4B8D-8ED3-D2ECF38E073C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2022-Phase-2-Backend", "2022-Phase-2-Backend\2022-Phase-2-Backend.csproj", "{04D5125C-7E5E-4B8D-8ED3-D2ECF38E073C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2022-Phase-2-BackendTests", "2022-Phase-2-BackendTests\2022-Phase-2-BackendTests.csproj", "{29D6F90D-588F-4D4F-AF5E-1CB5F30164FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{04D5125C-7E5E-4B8D-8ED3-D2ECF38E073C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04D5125C-7E5E-4B8D-8ED3-D2ECF38E073C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04D5125C-7E5E-4B8D-8ED3-D2ECF38E073C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D6F90D-588F-4D4F-AF5E-1CB5F30164FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D6F90D-588F-4D4F-AF5E-1CB5F30164FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D6F90D-588F-4D4F-AF5E-1CB5F30164FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D6F90D-588F-4D4F-AF5E-1CB5F30164FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
