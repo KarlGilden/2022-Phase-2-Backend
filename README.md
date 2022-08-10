@@ -1,11 +1,11 @@
 # 2022-Phase-2-Backend
 
 
-#Prerequisites:
+# Prerequisites:
 
 1. Have SQL Server installed on computer
 
-#Set up instructions:
+# Set up instructions:
 
 1. Clone the repository.
 2. In console, type "dotnet ef database update.
